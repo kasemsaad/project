@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/api.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Hub</title>
+    <link rel="icon" href="./img/icon.png">
+</head>
+
+<body>
+  <header>
+    
+    <nav class="navbar rounded-1 position-fixed navbar-expand-lg p-2  navbar-dark">
+      <div id="bn" class="container ">
+          <a class="item navbar-brand fa-2xl" href="#home"><img id="icon" class=" nav-item" style="width: 3rem;height:40px;" src="./img/icon.png" alt=""></a>
+          <button  id="nav"  class="navbar-toggler  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span  class="navbar-toggler-icon"></span>
+          </button>
+          <div  id="list" class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul  class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="item active" aria-current="page" href="#home"><span>Home</span> </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="item  mx-4" href="http://127.0.0.1:5500/index1.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="item  mx-4" href="http://127.0.0.1:5500/index1.html">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="item mx-4" href="http://127.0.0.1:5500/api.html">Movies</a>
+                  </li>
+              </ul>
+              <span class="item fw-bold mx-4" id="loginn">Hi<span id="loginname"></span></span>
+              <button class="item btn btn-outline-dark btn-sm" id="logOutBtn">LogOut</button>
+          </div>
+      </div>
+  </nav>
+  
+  </header>
+  <section> <div class="container pt-5 ">
+        <div class="row" id="showdata">
+        </div>
+        </div> </section> 
+        <div id="scrolpoinyer" class="to-up position-fixed end-0 bottom-0  d-none fa-2x d-flex justify-content-center align-items-center" style=" background-color: var(--main-color); border-radius: 50% ; width: 50px; height:50px;">
+            <i class=" fas fa-arrow-alt-circle-up" style="color: var(--font-color);"> </i><span style="color: #ffffff;"></span>
+
+          </div>
+<footer class=" bg-dark text-center py-5">
+  <div class="container">
+    
+      <div class="row justify-content-center align-items-center">
+          <div class="col-md-3">
+              <div class="footer text-white">
+                  <h6>©Copyright. All Reserved <span>Elkasem Saad</span></h6>
+                  <div class="footer-social d-flex justify-content-evenly align-items-baseline py-2">
+                      <a href="https://www.facebook.com/alkasem.saad/" class="fs-4 fa-brands fa-facebook"></a>
+                      <a href="https://www.linkedin.com/in/kasem-saad-58ab77251/" class="fs-4 fa-brands fa-linkedin"></a>
+                      <a href="https://github.com/kasemsaad" class="fs-4 fa-brands fa-github"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+          <script src="./js/jquery-3.6.3.min.js"></script>
+          <script src="./js/indexapi.js"></script>
+</body>
+</html>
